@@ -1,0 +1,25 @@
+name: qwen3_eval
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=12.1
+  - pandas
+  - tqdm
+  - pip
+  - pip:
+    - modelscope>=1.11.0
+    - transformers>=4.37.0
+    - accelerate>=0.27.0
+    - sentencepiece
+    - protobuf
+    - cpm_kernels
+    - streamlit
+    - gradio
+    - mdtex2html
+    - latex2mathml
+    - jupyter 
